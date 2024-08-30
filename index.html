@@ -8,22 +8,25 @@
   </head>
   <body>
      <!-- Project-2 Build a background color switcher -->
-   
-  
-    <h5>Select any of your favorite color</h5>
-
-        <select id="Favorite color" onchange="getOptions()">
-          <option value="Green">Green</option>
-          <option value="Orange">Orange</option>
-          <option value="Red">Red</option>
-          <option value="Navy blue">Navy blue</option>
-          <option value="Sky blue">Sky blue</option>
+    <div class="container">
+      <h5>Select your favrite Color and the background color will change</h5>
+        <select onchange="selectedColor(value)">
+          <option value="select">select</option>
+          <option value="green">green</option>
+          <option value="red">Red</option>
+          <option value="Blue">Blue</option>
+          <option value="orange">Orange</option>
+          <option value="purple">Purple</option>
         </select>
-        <p id="demo"></p>
+    </div>
+        
+
+      
+​
+  
 
     
-        
+    <script type="text/JavaScript" src="script.js"></script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script type="text/JavaScript" src="script.js"></script>
   </body>
 </html>
